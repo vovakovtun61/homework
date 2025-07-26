@@ -1,0 +1,35 @@
+.some-text {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.complaint {
+    color: #6d56d4;
+    font-family: "Triodion", system-ui;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.about_me {
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.lazen {
+    color: #f400b3;
+    word-spacing: 30px;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    color: #f400b3;
+    text-decoration-color:
+}
+
+.lazen2 {
+    text-decoration: underline;
+    border-bottom: 2px solid #000;
+    letter-spacing: 5px;
+}
