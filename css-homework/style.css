@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+#blcok {
+    background: yellow;
+    max-width: 1500px;
+    min-width: 1000px;
+    min-height: 600px;
+    max-height: 700px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+span {
+    display: inline-block;
+    background: orange;
+    max-width: 160px;
+    min-width: 100px;
+    padding: 10px;
+    padding-top: 15px;
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    webkit-box-shadow: 4px 4px 42px 10px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 4px 4px 42px 10px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 4px 4px 42px 10px rgba(34, 60, 80, 0.2) inset;
+
+}
