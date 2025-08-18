@@ -1,0 +1,54 @@
+body {
+    background: #3a3939;
+}
+
+.wrapper {
+    padding: 15%;
+    min-height: 100%;
+}
+
+.container {
+    padding: 0% 38%;
+}
+
+.block {
+    position: relative;
+    background: rgb(77, 75, 75);
+    display: inline-block;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.text {
+    position: relative;
+    opacity: 0;
+    top: 114px;
+    left: -3px;
+    color: green;
+    font-size: 40px;
+}
+
+.bar {
+    position: absolute;
+    bottom: 328px;
+    left: 0;
+    height: 30px;
+    background: #ffffff;
+
+}
+
+.block:hover .text {
+    opacity: 1;
+    width: 100%;
+    transition-duration: 3s;
+
+}
+
+.block:hover .bar {
+    width: 100%;
+    transition-duration: 6s;
+    /* Здесь transition не работает */
+
+}
