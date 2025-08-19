@@ -1,0 +1,34 @@
+body {
+    background: #222222;
+}
+
+
+.text {
+    color: white;
+    font-size: 30px;
+}
+
+.white {
+    position: fixed;
+    top: 500px;
+    right: 200px;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    background: white;
+    height: 100px;
+    max-width: 100%;
+    border-radius: 20px;
+
+}
+
+.red {
+    position: absolute;
+    background: red;
+    top: auto;
+    bottom: 50%;
+    left: 10%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
